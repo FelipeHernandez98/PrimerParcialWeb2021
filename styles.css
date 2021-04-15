@@ -1,3 +1,46 @@
 @import url('reset.css');
 @import url('reticula.css');
 @import url('responsive.css');
+
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: ARIAL;
+}
+
+ul{
+	padding-left: 15px;
+	padding-right: 12px;
+}
+
+
+
+li + li {
+
+	padding-left: 12px;
+	border-left: 1px solid #000;
+	
+}
+
+.icon{
+	height: 50px;
+	width: 50px;
+}
+
+footer{
+	margin-left: 25px;
+	bottom: 0;
+}
+
+header, footer{
+	
+	position: fixed;
+	width: 100%;
+	padding: 20px 0;
+	box-sizing: border-box;
+	
+}
+.linea{
+	background-color: blue;
+}
